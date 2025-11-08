@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="login-container" id="login-container">
+  <h2 class="heading">Login</h2>
+  <form id="login-form" autocomplete="on">
+    <input type="email" id="login-email" placeholder="Email" required />
+    <input type="password" id="login-password" placeholder="Password" required />
+    <div class="btn-row">
+      <button type="submit" class="btn btn-primary">
+        <span class="btn-icon"><i class="fa-solid fa-right-to-bracket"></i></span>
+        <span class="btn-text">Log in</span>
+      </button>
+<a id="regstred" href="regstred.html" class="btn btn-secondary">
+  <span class="btn-icon"><i class="fa-solid fa-user-plus"></i></span>
+  <span class="btn-text">Sign in</span>
+</a>
+  <button type="button" id="forgot-btn" class="btn btn-ghost">
+        <span class="btn-icon"><i class="fa-solid fa-key"></i></span>
+        <span class="btn-text">Forgot Password</span>
+      </button>
+    </div>
+  </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script  type="module" src="login.js"></script>
+</body>
+</html>
