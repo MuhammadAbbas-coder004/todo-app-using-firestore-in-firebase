@@ -10,6 +10,7 @@ import {collection,
   import {signOut,
 onAuthStateChanged} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 import { auth, db } from "/config.js";
+
 const form = document.querySelector("#form");
 const title = document.querySelector("#title");
 const description = document.querySelector("#description");
