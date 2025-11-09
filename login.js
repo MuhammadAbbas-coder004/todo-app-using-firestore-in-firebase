@@ -1,5 +1,5 @@
 import {signInWithEmailAndPassword,sendPasswordResetEmail} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
-  import { auth ,} from "./config.js";
+  import { auth ,} from "./firesotreconfig.js";
   const loginForm = document.querySelector("#login-form");
   const loginEmail = document.querySelector("#login-email");
   const loginPassword = document.querySelector("#login-password");

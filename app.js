@@ -9,7 +9,7 @@ import {collection,
   updateDoc,} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore.js"; 
   import {signOut,
 onAuthStateChanged} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
-import { auth, db } from "/config.js";
+import { auth, db } from "/firesotreconfig.js";
 
 const form = document.querySelector("#form");
 const title = document.querySelector("#title");
